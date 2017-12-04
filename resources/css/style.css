@@ -211,3 +211,56 @@ footer p {
     display: none;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  #banner {
+    height: 15rem;
+  }
+
+  #banner-text {
+    background-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 10rem;
+    width: 92%;
+    padding: 1rem 0 1rem 2rem;
+  }
+
+  #banner-text h2 {
+    font-size: 0.77rem;
+  }
+
+  #banner-text h1 {
+    font-size: 1rem;
+  }
+
+  .product-grid{
+    justify-content: space-around;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .contact {
+    width: 90%;
+  }
+
+  .contact.location {
+    margin-bottom: 0.5rem;
+  }
+
+  footer p {
+    text-align: center;
+  }
+}
