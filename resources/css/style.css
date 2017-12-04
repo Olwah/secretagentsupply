@@ -107,6 +107,10 @@ nav li {
   margin: 0;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /** PRODUCT GRID STYLES **/
 
 .product-grid {
@@ -171,4 +175,39 @@ footer {
 footer p {
   color: white;
   padding: 2rem 0;
+}
+
+/** MEDIA QUERIES **/
+
+@media only screen and (max-width: 1024px) {
+  .site-container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #banner-text h1 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav li {
+    padding-right: 0;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
 }
